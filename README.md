@@ -19,6 +19,52 @@ TaskForge API is built as an internship project to demonstrate REST API developm
 - Supabase PostgreSQL database
 - Postman API testing
 - Environment variable configuration
+- Persistent PostgreSQL database using Supabase
+- Soft delete and task restoration
+- Task search, filtering, and pagination
+- Task history and audit trail
+- Automatic tracking of task status and priority changes
+- Bulk task status updates
+- Bulk soft delete operations
+- Restore deleted tasks with history tracking
+- Database indexes for improved query performance
+
+## 📋 Task History & Audit Trail
+
+TaskForge maintains a complete history of important task actions.
+
+Tracked events include:
+
+- Task creation
+- Status changes
+- Priority changes
+- Task deletion
+- Task restoration
+
+Example:
+
+Created
+↓
+Status: pending → completed
+↓
+Priority: medium → high
+↓
+Deleted
+↓
+Restored
+
+## ⚡ Advanced Task Management
+
+TaskForge supports advanced task management operations including:
+
+- Search tasks by title
+- Filter by status, priority, and project
+- Pagination
+- Bulk status updates
+- Bulk soft deletion
+- Task restoration
+- Task statistics
+- Task audit history
 
 ## 🛠️ Tech Stack
 
